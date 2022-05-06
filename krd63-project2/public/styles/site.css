@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+
+}
+
+body {
+    background-color: beige;
+}
+
+.main {
+    display: flex;
+}
+
+.child {
+    flex-shrink: 3;
+    border: 1px solid black;
+    justify-content: flex-start;
+}
+
+.child2 {
+    flex-grow: 2;
+    justify-content: flex-start;
+}
+
+.content {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+}
+
+h1 {
+    text-align: center;
+    background: rgb(90, 139, 90);
+    padding: 3%;
+    color: white;
+    font-size: 400%;
+}
+
+p {
+    padding-bottom: 3%;
+    padding-right: 1%;
+    font-size: 120%;
+}
+
+.form {
+    padding-top: 3%;
+}
+
+.submit {
+    padding-top: 2%;
+    padding-left: 58%;
+    padding-bottom: 2%;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+td {
+    padding-bottom: 2%;
+}
+
+.hidden {
+    display: none;
+}
+
+.feedback {
+    color: red;
+    margin-bottom: -2px;
+    font-size: 85%;
+}
+
+.filter {
+    border: 1px solid black;
+    border-bottom: beige;
+}
+
+h2 {
+    background-color: rgb(181, 82, 46);
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 200%;
+}
+
+header {
+    text-align: center;
+    background: rgb(90, 139, 90);
+    color: white;
+}
+
+.heady {
+    background-color: rgb(181, 82, 46);
+    color: white;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 100%;
+}
